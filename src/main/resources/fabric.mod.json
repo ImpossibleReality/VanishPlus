@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "vanishplus",
+  "version": "${version}",
+  "name": "VanishPlus",
+  "description": "Improved Fabric Vanish Plugin",
+  "authors": [
+    "Wickedtree"
+  ],
+  "contact": {
+    "repo": "https://github.com/WickedTree/VanishPlus"
+  },
+  "license": "MIT",
+  "icon": "assets/vanishplus/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "codes.wickedtree.vanish.vanishplus.Vanishplus"
+    ]
+  },
+  "mixins": [
+    "vanishplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
